@@ -28,7 +28,6 @@ public class AuthControllerIt {
         RestAssured.port = localServerPort;
     }
 
-
     @Test
     public void should_get_one(){
         AuthDto dto = AuthDto.builder()
