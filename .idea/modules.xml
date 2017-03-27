@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/connect_the_world_groupe4.iml" filepath="$PROJECT_DIR$/.idea/connect_the_world_groupe4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pachimari/pachimari.iml" filepath="$PROJECT_DIR$/pachimari/pachimari.iml" />
+    </modules>
+  </component>
+</project>
