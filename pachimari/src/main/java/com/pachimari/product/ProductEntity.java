@@ -13,21 +13,25 @@ import javax.validation.constraints.NotNull;
 @NoArgsConstructor
 @Getter
 @Setter
-@Entity
-@Table(name = "product")
 public class ProductEntity {
     @Id
-    @GeneratedValue
-    private Long id;
-    @Column
+    private String id;
+
     private String name;
-    @Column
+
     private String brand;
-    @Column
-    private int typeId;
-    @Column
+
+    private Integer typeId;
+
     private double price;
-    @Column
+
     private String imageURL;
+
+    @Override
+    public String toString() {
+        return String.format(
+                "Product[id=%s, name='%s', brand='%s', typeId='%d', price='%f%n', imageURL='%s']",
+                id, name, brand, typeId, price, imageURL);
+    }
 
 }

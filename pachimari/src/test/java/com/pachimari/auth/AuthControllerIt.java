@@ -17,6 +17,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
  * Created by iPlowPlow on 10/03/2017.
  */
 @RunWith(SpringRunner.class)
+@AuthData
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 public class AuthControllerIt {
 

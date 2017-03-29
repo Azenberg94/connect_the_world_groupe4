@@ -5,8 +5,9 @@ package com.pachimari.product;
  */
 public class ProductAdapter {
 
-    public static ProductEntityDto fromProductToDto(ProductEntity product){
-        return ProductEntityDto.builder()
+    public static ProductDto fromProductToDto(ProductEntity product){
+        return ProductDto.builder()
+                .id(product.getId())
                 .name(product.getName())
                 .brand(product.getBrand())
                 .typeId(product.getTypeId())
@@ -15,8 +16,9 @@ public class ProductAdapter {
                 .build();
     }
 
-    public static ProductEntity fromDtoToProduct(ProductEntityDto productDto){
+    public static ProductEntity fromDtoToProduct(ProductDto productDto){
         return ProductEntity.builder()
+                .id(productDto.getId())
                 .name(productDto.getName())
                 .brand(productDto.getBrand())
                 .typeId(productDto.getTypeId())

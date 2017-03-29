@@ -27,7 +27,7 @@ public class ProductRepositoryJdbc extends JdbcDaoSupport{
 
     private ProductEntity map(ResultSet rs, int rowNum) throws SQLException {
         return ProductEntity.builder()
-                .id(rs.getLong("id"))
+                .id(rs.getString("id"))
                 .name(rs.getString("name"))
                 .brand(rs.getString("brand"))
                 .typeId(rs.getInt("typeId"))
