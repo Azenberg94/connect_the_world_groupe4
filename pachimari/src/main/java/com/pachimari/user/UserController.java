@@ -30,7 +30,7 @@ public class UserController {
 
     }
     @PostMapping()
-    public UserDTO createAccount(@RequestBody @Valid UserDTO accountEntity, BindingResult bindingResult){
+    public UserDTO createAccount(@Valid UserDTO accountEntity, BindingResult bindingResult){
         if(bindingResult.hasErrors()){
             throw new BadRequestException();
         }

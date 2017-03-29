@@ -17,7 +17,7 @@ import javax.validation.constraints.Size;
 public class UserDTO {
 
     @NotNull
-    private Long id;
+    private int id;
 
 
     @NotBlank
@@ -34,7 +34,7 @@ public class UserDTO {
     private String email;
 
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
