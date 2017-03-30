@@ -71,8 +71,8 @@
       <file leaf-file-name="ProductRepositoryMongo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pachimari/src/test/java/com/pachimari/product/ProductRepositoryMongo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="358">
+              <caret line="49" column="73" lean-forward="false" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +86,7 @@
             <state relative-caret-position="174">
               <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
-                <marker date="1490724191011" expanded="true" signature="653:674" ph="select * fro... product" />
+                <marker date="1490818913569" expanded="true" signature="653:674" ph="select * fro... product" />
               </folding>
             </state>
           </provider>
@@ -105,8 +105,8 @@
       <file leaf-file-name="ProductsRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pachimari/src/main/java/com/pachimari/product/ProductsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="330">
+              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,10 +189,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1028" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1027,47 +1027,47 @@
       <workItem from="1490286553880" duration="70000" />
       <workItem from="1490286650266" duration="8677000" />
       <workItem from="1490354900159" duration="599000" />
-      <workItem from="1490361443609" duration="17710000" />
+      <workItem from="1490361443609" duration="20683000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 20m 09s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 03m 46s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 21m 12s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 04m 58s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 22m 30s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 05m 40s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 28m 22s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 07m 01s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 29m 56s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 13m 37s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 36m 52s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 16m 00s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 39m 18s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 34m 11s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 44m 23s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 34m 46s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 44m 50s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 35m 36s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductRepositoryMongo - 2017.03.29 at 21h 45m 53s.xml">
+    <history-entry file="ProductRepositoryMongo - 2017.03.30 at 21h 40m 27s.xml">
       <configuration name="ProductRepositoryMongo" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27056000" />
+    <option name="totallyTimeSpent" value="30029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1028" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1083,15 +1083,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33670035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25263157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1149,7 +1149,7 @@
         <state relative-caret-position="198">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <marker date="1490724191011" expanded="true" signature="653:674" ph="select * fro... product" />
+            <marker date="1490818913569" expanded="true" signature="653:674" ph="select * fro... product" />
           </folding>
         </state>
       </provider>
@@ -1235,7 +1235,7 @@
         <state relative-caret-position="198">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <marker date="1490724191011" expanded="true" signature="653:674" ph="select * fro... product" />
+            <marker date="1490818913569" expanded="true" signature="653:674" ph="select * fro... product" />
           </folding>
         </state>
       </provider>
@@ -1379,7 +1379,7 @@
         <state relative-caret-position="192">
           <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
           <folding>
-            <marker date="1490286526603" expanded="true" signature="627:674" ph="Select * Fro... auth" />
+            <marker date="1490818913554" expanded="true" signature="627:674" ph="Select * Fro... auth" />
           </folding>
         </state>
       </provider>
@@ -1529,15 +1529,15 @@
         <state relative-caret-position="174">
           <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding>
-            <marker date="1490724191011" expanded="true" signature="653:674" ph="select * fro... product" />
+            <marker date="1490818913569" expanded="true" signature="653:674" ph="select * fro... product" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pachimari/src/test/java/com/pachimari/product/ProductRepositoryMongo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="358">
+          <caret line="49" column="73" lean-forward="false" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1546,8 +1546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pachimari/src/main/java/com/pachimari/product/ProductsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="330">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

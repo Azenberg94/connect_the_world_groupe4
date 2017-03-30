@@ -11,9 +11,7 @@ import java.util.List;
  */
 @Repository
 public interface ProductsRepository extends MongoRepository<ProductEntity, String> {
-    @Query("{$and: [ {$or : [ { $where: '?0 == null' } , { 'name' : ?0 }]}, {$or : [ { $where: '?1 == null' } , { 'brand' : ?1 }]}, {$or : [ { $where: '?2 == null' } , { typeId : ?2 }]} ] }")
+    @Query("{$and: [ {$or : [ { null : ?0 } , { 'name' : ?0 }]}, {$or : [ { null : ?1 } , { 'brand' : ?1 }]}, {$or : [ { null : ?2 } , { typeId : ?2 }]} ] }")
     public List<ProductEntity> findByOptionalParameters(String name, String brand, Integer typeId);
     public List<ProductEntity> findAll();
-    @Query("{$or :[{ $where: '?0 == null' }, { 'name' : ?0 }]}")
-    List<ProductEntity> findProductsByName(String name);
 }

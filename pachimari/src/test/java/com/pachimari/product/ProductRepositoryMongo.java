@@ -47,7 +47,7 @@ public class ProductRepositoryMongo {
 
     @Test
     public void should_find_by_name(){
-        List<ProductEntity> result = repository.findProductsByName("test3");
+        List<ProductEntity> result = repository.findByOptionalParameters("test3", null, null);
         assertThat(result).hasSize(1);
         assertThat(result.contains(product3));
     }
