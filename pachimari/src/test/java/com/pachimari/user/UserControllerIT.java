@@ -6,6 +6,7 @@ import com.lordofthejars.nosqlunit.core.LoadStrategyEnum;
 import com.lordofthejars.nosqlunit.mongodb.MongoDbRule;
 import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
+import com.pachimari.MongoConfigTest;
 import com.pachimari.user.repository.UserRepository;
 import org.junit.After;
 import org.junit.Before;
@@ -13,6 +14,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.embedded.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
@@ -22,6 +24,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static com.jayway.restassured.RestAssured.given;
@@ -35,7 +38,8 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
  * Created by Pierre on 02/03/2017.
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = RANDOM_PORT)
+@SpringBootTest(webEnvironment = RANDOM_PORT,classes =  MongoConfigTest.class)
+@EnableAutoConfiguration
 public class UserControllerIT {
     @LocalServerPort
     private int localServerPort;
@@ -43,9 +47,6 @@ public class UserControllerIT {
     private MongoTemplate mongoTemplate;
     @Autowired
     UserRepository repository;
-    @Rule
-    public MongoDbRule mongoDbRule = newMongoDbRule().defaultEmbeddedMongoDb("user-test-db");
-
     @Before
     public void init(){
         mongoTemplate.dropCollection(User.class);
