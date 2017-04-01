@@ -33,7 +33,9 @@ public class UserController {
     public UserDTO createAccount(@RequestBody @Valid UserDTO accountEntity, BindingResult bindingResult){
         if(bindingResult.hasErrors()){
             throw new BadRequestException();
+
         }
       return  userService.createAccount(accountEntity);
     }
+
 }
