@@ -6,7 +6,6 @@ import com.lordofthejars.nosqlunit.core.LoadStrategyEnum;
 import com.lordofthejars.nosqlunit.mongodb.MongoDbRule;
 import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
-import com.pachimari.MongoConfigTest;
 import com.pachimari.user.repository.UserRepository;
 import org.junit.After;
 import org.junit.Before;
@@ -38,8 +37,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
  * Created by Pierre on 02/03/2017.
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = RANDOM_PORT,classes =  MongoConfigTest.class)
-@EnableAutoConfiguration
+@SpringBootTest(webEnvironment = RANDOM_PORT)
 public class UserControllerIT {
     @LocalServerPort
     private int localServerPort;
@@ -50,6 +48,8 @@ public class UserControllerIT {
     @Before
     public void init(){
         mongoTemplate.dropCollection(User.class);
+        mongoTemplate.save(User.builder().id(0).email("test@test.fr").name("test").login("test1").build());
+        mongoTemplate.save(User.builder().id(1).email("test2@test.fr").name("test2").login("test2").build());
         RestAssured.port=localServerPort;
     }
     @After
@@ -62,9 +62,18 @@ public class UserControllerIT {
                 .get("/user")
                 .then()
                 .statusCode(200)
-                .body("$",hasSize(0)).log().all();
+                .body("$",hasSize(2)).log().all();
     }
-
+    @Test
+    public void should_update_user(){
+        UserDTO userDTO= new UserDTO(1,"test3","test@test.fr","test");
+        given().log().all().contentType(JSON).body(userDTO).when()
+                .put("/user")
+                .then()
+                .statusCode(200)
+                .body("id",is(1))
+                .body("name",is("test3")).log().all();
+    }
     @Test
     public void should_create_user(){
 
@@ -74,8 +83,18 @@ public class UserControllerIT {
                 .post("/user")
                 .then()
                 .statusCode(200)
-                .body("id",is(5))
                 .body("name",is("fifth")).log().all();
+    }
+
+    @Test
+    public void should_delete_user(){
+
+        given().log().all().contentType(JSON).body(0).when()
+                .delete("/user")
+                .then()
+                .statusCode(200)
+                .body("id",is(0))
+                .body("name",is("test")).log().all();
     }
     @Test
     public void should_fail_get_list_user(){

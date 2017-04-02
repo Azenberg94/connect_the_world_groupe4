@@ -9,6 +9,7 @@ import com.mongodb.Mongo;
 import com.mongodb.MongoClient;
 import com.github.fakemongo.Fongo;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+/*
 @Configuration
 public class MongoConfigTest extends  AbstractMongoConfiguration {
 
@@ -24,4 +25,4 @@ public class MongoConfigTest extends  AbstractMongoConfiguration {
         return new MongoClient("127.0.0.1");
     }
 
-}
+}*/

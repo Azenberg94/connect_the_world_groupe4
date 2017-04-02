@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.NotBlank;
 
+import javax.persistence.criteria.CriteriaBuilder;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -17,7 +18,7 @@ import javax.validation.constraints.Size;
 public class UserDTO {
 
     @NotNull
-    private int id;
+    private Integer id;
 
 
     @NotBlank
@@ -34,7 +35,7 @@ public class UserDTO {
     private String email;
 
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 

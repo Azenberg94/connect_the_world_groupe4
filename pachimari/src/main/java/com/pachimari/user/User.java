@@ -22,9 +22,7 @@ import javax.persistence.*;
 public class User {
 
     @Id
-    @GeneratedValue
-    @NonNull
-    private int id;
+    private Integer id;
 
     private String name;
 

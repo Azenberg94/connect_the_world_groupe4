@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
  * Created by Pierre on 25/03/2017.
  */
 @Repository
-public interface UserRepository  extends MongoRepository<User,Long>{
-
+public interface UserRepository  extends MongoRepository<User,Integer>{
+    public User findById(Integer id);
+    public User findByName(String name);
 }

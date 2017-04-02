@@ -4,11 +4,12 @@ package com.pachimari.user;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserAdapter {
+public  class UserAdapter {
 
 
     public static User toUserEntity(UserDTO userDTO){
         return User.builder()
+                .id(userDTO.getId())
                 .login(userDTO.getLogin())
                 .email(userDTO.getEmail())
                 .name(userDTO.getName())
@@ -17,6 +18,7 @@ public class UserAdapter {
 
    public static UserDTO toUserDTO(User userEntity){
         return UserDTO.builder()
+                .id(userEntity.getId())
                 .login(userEntity.getLogin())
                 .email(userEntity.getEmail())
                 .name(userEntity.getName())
